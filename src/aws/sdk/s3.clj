@@ -14,7 +14,7 @@
             [clojure.walk :as walk])
   (:import com.amazonaws.auth.BasicAWSCredentials
            com.amazonaws.auth.BasicSessionCredentials
-           com.amazonaws.auth.InstanceProfileCredentialProvider
+           com.amazonaws.auth.InstanceProfileCredentialsProvider
            com.amazonaws.services.s3.AmazonS3Client
            com.amazonaws.AmazonServiceException
            com.amazonaws.ClientConfiguration
